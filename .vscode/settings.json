@@ -1,0 +1,13 @@
+{
+    "liveServer.settings.port": 5501,
+    "editor.wordWrap": "wordWrapColumn",
+    "diffEditor.wordWrap": "on",
+    "html.format.wrapAttributes": "auto",
+    "workbench.editor.wrapTabs": true,
+    "editor.wrappingIndent": "none",
+    "editor.wrappingStrategy": "advanced",
+    "editor.accessibilitySupport": "off",
+    "editor.tabSize": 2,
+    "debug.console.wordWrap": false,
+    "editor.wordWrapColumn": 100
+}
