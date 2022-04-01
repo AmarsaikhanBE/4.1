@@ -433,6 +433,7 @@ main {
 #contact .form {
     display: block;
     padding: 1rem;
+    position: relative;
 }
 
 .form>* {
@@ -453,6 +454,10 @@ main {
     margin-bottom: 1rem;
 }
 
+#commentName {
+    width: 80%;
+}
+
 .form textarea {
     height: 5rem;
 }
@@ -463,9 +468,11 @@ main {
     font-weight: 900;
     background: black;
     color: orange;
-    margin-left: auto;
     border: .3rem solid orange;
     cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
 }
 
 #commentBtn:hover {
@@ -475,6 +482,13 @@ main {
 
 #commentList {
     overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#commentList::-webkit-scrollbar {
+    display: none;
+    /* move to laptop responsive settings */
 }
 
 #commentList div {
@@ -653,5 +667,12 @@ nav li.active::after,
         background: none;
         border: none;
         color: white
+    }
+    #commentName {
+        width: 100%;
+    }
+    #commentBtn {
+        position: relative;
+        margin-left: auto;
     }
 }
