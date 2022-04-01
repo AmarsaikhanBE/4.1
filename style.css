@@ -368,10 +368,10 @@ main {
 .img-box>Img {
     width: 120%;
     position: absolute;
-    animation: shoe 5s ease-in-out infinite;
+    animation: swipe 5s ease-in-out infinite;
 }
 
-@keyframes shoe {
+@keyframes swipe {
     0% {
         top: 5%;
         left: -8%;
@@ -395,7 +395,7 @@ main {
 }
 
 .item-text {
-    padding: 1rem;
+    padding: 1rem 2rem;
 }
 
 .item-text p {
