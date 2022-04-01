@@ -153,6 +153,7 @@ main {
 
 #home div {
     width: 80%;
+    align: auto;
 }
 
 #svgIntro {
