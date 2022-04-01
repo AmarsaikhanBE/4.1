@@ -152,7 +152,7 @@ main {
 /* home page */
 
 #home div {
-    width: 100%;
+    width: 80%;
 }
 
 #svgIntro {
@@ -630,6 +630,9 @@ nav li.active::after,
 @media (max-width:1024px) {
     .container {
         padding: 0 1rem;
+    }
+    #home div {
+        width: 100%;
     }
     .about-nav {
         display: flex;
